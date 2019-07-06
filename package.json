@@ -4,6 +4,7 @@
   "description": "Money Exchange task for Padawans",
   "main": "test.js",
   "scripts": {
+    "dev": "nodemon -x npm test src/index.js",
     "test": "mocha test.js"
   },
   "repository": {
